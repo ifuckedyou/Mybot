@@ -18,9 +18,9 @@ START_IMG = ["https://telegra.ph/file/00b0aa858250ec4229e54.jpg",
 
 
 Bot = Client(session_name="my-first-bot",
-             api_id=1234567, #Put Your API ID Here 
-             api_hash="t5h8a4ndg9ba59mgs58lo2h90ndr72bins", # Put Your API Hash Here                 
-             bot_token="61952638:AbCdEfGhIjKlMnOp") # Put Your Bot Token Here
+             api_id=1061393, #Put Your API ID Here 
+             api_hash="dee44b60afe8fd325a96f5237e495d7a", # Put Your API Hash Here                 
+             bot_token="5097218470:AAEVPEWIezxF81pi8WSjE1zR9cHvY-ezb18") # Put Your Bot Token Here
 
 #==COMMANDS=====================================================================
 
