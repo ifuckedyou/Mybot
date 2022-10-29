@@ -28,8 +28,8 @@ Bot = Client(session_name="my-first-bot",
 async def start(bot, message):
          buttons = [
                      [InlineKeyboardButton('Help', callback_data="help"),
-                      InlineKeyboardButton('Source Code', url='https://github.com/Arun-TG/MyBot')],
-                     [InlineKeyboardButton('Channel', url='https://t.me/CC_ChannelNew')]
+                      InlineKeyboardButton('Source Code', url='https://github.com')],
+                     [InlineKeyboardButton('Channel', url='https://t.me/Baby_xd')]
                    ]
          await message.reply_photo(photo=random.choice(START_IMG), caption=START_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons))
                
